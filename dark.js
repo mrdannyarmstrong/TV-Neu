@@ -11,6 +11,7 @@ function light() {
 	document.body.style.backgroundColor = "#67a1d7"; 
 	mainui.style.backgroundColor = "#ebebeb"; 
 	topbar.style.backgroundColor = "#ebebeb";
+	mainui.style.color = "black"; 
 	time.style.color="black";
 	switchbutt.style.backgroundImage = "url(switch.svg)";
 	switchbutt.onclick = function() { dark(); }
@@ -23,6 +24,7 @@ function darkm() {
 	topbar.style.backgroundColor = "#333333";
 	switchbutt.style.backgroundImage = "url(switch2.svg)";
 	time.style.color="white";
+	mainui.style.color = "white"; 
 	switchbutt.onclick = function() { light(); }
 }
 
@@ -34,5 +36,6 @@ function dark() {
 	topbar.style.backgroundColor = "#333333";
 	switchbutt.style.backgroundImage = "url(switch2.svg)";
 	time.style.color="white";
+	mainui.style.color = "white"; 
 	switchbutt.onclick = function() { light(); }
 }
